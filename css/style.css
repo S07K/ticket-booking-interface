@@ -1,0 +1,99 @@
+
+        body
+        {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            background: grey;
+            font-family: 'Lexend Mega', sans-serif;
+        }
+        #card
+        {
+            width: 80vw;
+            height: auto;
+            padding: 0.6rem;
+            background-color: #000046;
+            color: #1CB5E0;
+            border-radius: 0.5rem;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 100%;
+            margin: 10px;
+        }
+        #left
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        #theatre
+        {
+            text-align: left;
+            display: flex;
+        }
+        #availability
+        {
+            display: flex;
+            flex-direction: row;
+            width: 20%;
+        }
+        #right
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        .iconify:hover
+        {
+            transform: scale(1.6);
+        }
+        .accordion-body
+        {
+            display: grid;
+            padding: 20px;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: repeat(autofill,auto);
+        }
+        .accordion-body div{display: flex;flex-direction: row;justify-content: space-evenly;}
+        .form-check-inline
+        {
+            margin-right: 0;
+        }
+        .form-check
+        {
+            padding-left: 1em;
+        }
+        #book
+        {
+            grid-column: 1/4;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        input[disabled]
+        {
+            background-color: red;
+            
+        }
+        .form-check-input:checked 
+        {
+            background-color: green;
+            border-color: green;
+        }
+        .form-check-input:checked[type=checkbox] 
+        {
+            background-image: none;
+        }
+        .bg-success
+        {
+            background: green !important;
+        }
+        .btn-success:hover
+        {
+            background: green;
+        }
